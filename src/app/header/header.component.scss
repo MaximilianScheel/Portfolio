@@ -1,0 +1,32 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 32px;
+
+    &:hover {
+      color: #1CDAE6;
+    }
+  }
+}
+
+

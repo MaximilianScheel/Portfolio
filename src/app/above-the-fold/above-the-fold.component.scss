@@ -1,0 +1,41 @@
+
+.name-field {
+  display: flex;
+  align-items: center;
+
+  .deg-span {
+    transform: rotate(270deg);
+    font-size: 50px;
+  }
+
+  .headline-name {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .dev-name {
+    font-size: 48px;
+    line-height: 100%;
+    color: #4b47ff;
+  }
+}
+
+.test-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .talk-button {
+    background: #00bee8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: white;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+
+  }
+}
+
+

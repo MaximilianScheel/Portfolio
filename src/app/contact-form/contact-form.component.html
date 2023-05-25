@@ -1,0 +1,27 @@
+
+<mat-grid-list cols="2">
+  <mat-grid-tile>
+<div class="contact-content">
+  <img class="contact-headline-img" src="assets/img/contactHeadline.png" alt="" />
+  <div class="contact-headline">
+    <h1>Contact</h1>
+  </div>
+  <div class="contact-description">
+    <h2>Got a problem to solve?</h2>
+    <p>
+      Contact me through this form, i am intrested in hearing you, knowing your
+      ideas and contributing to your projects with my work. Need a Frontend
+      Developer? <b>Contact me!</b>
+    </p>
+  </div>
+</div>
+</mat-grid-tile>
+<mat-grid-tile>
+  <form class="form" (submit)="sendMail()" ngNativeValidate #myForm>
+    <input class="name-field" required type="text" name="name" placeholder="Your name" #nameField />
+    <input class="email-field" required type="email" name="email" placeholder="Your email" #emailField />
+    <input class="message-field" required type="text" name="message" placeholder="Your message" #messageField />
+    <button class="contact-button" #sendButton>Send message :D</button>
+  </form>
+</mat-grid-tile>
+</mat-grid-list>
