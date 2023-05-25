@@ -1,4 +1,16 @@
+main {
+  display: flex;
+  align-items: center;
+}
 
+.name-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  right: 115px;
+}
 .name-field {
   display: flex;
   align-items: center;
@@ -11,10 +23,11 @@
   .headline-name {
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 20px;
   }
 
   .dev-name {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 100%;
     color: #4b47ff;
   }
@@ -34,8 +47,76 @@
     height: 48px;
     font-weight: 500;
     font-size: 18px;
-
   }
 }
 
+.background-assets {
+  display: flex;
 
+  .background-curved {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 350px;
+    height: 850px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .background-purple-shadow {
+    position: absolute;
+    right: -250px;
+    top: 900px;
+  }
+}
+
+.references {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .reference-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+
+    img {
+      padding: 16px;
+    }
+  }
+
+  .reference-email {
+    font-size: 18px;
+  }
+}
+
+.scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  position: absolute;
+  right: 79px;
+
+  .scroll-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scroll-content span {
+    transform: rotate(-270deg);
+    white-space: nowrap; /* Verhindert den Zeilenumbruch des Textes */
+    margin-bottom: 10px; /* Optionale Anpassung des Abstands zum Bild */
+  }
+
+  img {
+    position: absolute;
+    right: 43px;
+    top: 74px;
+  }
+}
